@@ -9,7 +9,7 @@ var connectedUsers = {};
 app.use(express.static(__dirname + '/public'));
 
 io.on('connection', function(socket) {
-	console.log('A user is connected.');
+	console.log('A user is connected.',socket.id);
 
 	socket.on('disconnect', function() {
 		var userData = connectedUsers[socket.id];

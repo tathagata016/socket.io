@@ -1,9 +1,9 @@
 body {
 	background: #f09819;
-	background: -moz-linear-gradient(left,  #f09819 1%, #ff512f 100%);
-	background: -webkit-linear-gradient(left,  #f09819 1%,#ff512f 100%);
-	background: linear-gradient(to right,  #f09819 1%,#ff512f 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09819', endColorstr='#ff512f',GradientType=1 );
+	background: -moz-linear-gradient(to right,  #3193da 1%,#a1d4ee 100%);
+	background: -webkit-linear-gradient(to right,  #3193da 1%,#a1d4ee 100%);
+	background: linear-gradient(to right,  #3193da 1%,#a1d4ee 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09819', endColorstr='#3193da',GradientType=1 );
 	font-family: 'Lato', sans-serif;
 	font-style: normal;
 	font-weight: 400;
@@ -19,7 +19,7 @@ p {
 	font-family: 'Pattaya', sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #ff512f;
+  color: #3193da;
 }
 
 #login-form {
@@ -47,8 +47,8 @@ p {
 
 #login-form input[type="submit"]:hover {
   color: #fff;
-  background: #ff512f;
-  border: 2px solid #ff512f;
+  background: #3193da;
+  border: 2px solid #3193da;
 }
 
 #login-form p#error-msg {
@@ -67,7 +67,7 @@ p {
 }
 
 #login-form input[type="text"]:focus {
-  border-color: #ff512f;
+  border-color: #3193da;
 }
 
 #message-area {
@@ -120,7 +120,7 @@ p {
 }
 
 #messages::-webkit-scrollbar-thumb {
-  background-color: #F44336;
+  background-color: #a1d4ee;
 }
 
 .wrap-msg {
@@ -145,7 +145,7 @@ p {
 }
 
 #message-form input[type="submit"]:hover{
-  color: #F44336;
+  color: #a1d4ee;
   font-weight: 700
 }
 
